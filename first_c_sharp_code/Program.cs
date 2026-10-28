@@ -1,15 +1,14 @@
-﻿using System; // importing System namespace which includes classes which will be used.
+﻿using helloWorld; // importing helloWorld namespace from the Class1.cs file which includes classes which will be used.
+using Program3;
+using System; // importing System namespace which includes classes which will be used.
 using System.Collections.Generic; // importing System.Collections.Generic namespace which includes classes which will be used.
 using System.Linq; // importing System.Linq namespace which includes classes which will be used.
 using System.Text; // importing System.Text namespace which includes classes which will be used.
-
-using helloWorld; // importing helloWorld namespace from the Class1.cs file which includes classes which will be used.
 using week2_exercise1;
 using ex1 = week1_exercise1;
 using ex2 = week1_exercise2;
 using ex3 = week2_exercise1;
 using ex4 = week4_loops;
-
 using p1 = Program1; // Program1 namespace imported
 using p2 = Program2;
 using p3 = Program3;
@@ -33,7 +32,9 @@ namespace first_c_sharp_code // created HelloWorld namespace containing MainClas
         {
             p3.CoffeePlants plants = new p3.CoffeePlants();
             plants.Plants();
-        }
+            plants.PlantHealth();
+            //plants.DisplayPlants();
+        }    
 
         static void Program2()
         {
