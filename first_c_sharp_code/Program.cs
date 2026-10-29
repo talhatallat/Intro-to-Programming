@@ -32,8 +32,8 @@ namespace first_c_sharp_code // created HelloWorld namespace containing MainClas
         {
             p3.CoffeePlants plants = new p3.CoffeePlants();
             plants.Plants();
-            plants.PlantHealth();
-            //plants.DisplayPlants();
+            //plants.PlantHealth();
+            plants.DisplayPlants();
         }    
 
         static void Program2()
